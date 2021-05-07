@@ -1,8 +1,17 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 function UseStatePractice(){
+
+    const [count, setCount] = useState(0);
+
+
     return(
-        <div>useState stuff here</div>
+        <div>
+            <p>You clicked {count} times</p>
+            <button onClick={() => setCount(count + 1)}>
+                Click me!
+            </button>
+        </div>
     )
 }
 
