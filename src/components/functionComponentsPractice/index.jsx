@@ -4,7 +4,7 @@ import UseEffectPractice from './useEffectPractice/index';
 import UseStatePractice from './useStatePractice/index';
 
 
-class FunctionComponentPractice extends React.component {
+class FunctionComponentPractice extends React.Component {
 
     render(){
         return(
