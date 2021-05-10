@@ -26,7 +26,7 @@ class Navigation extends React.Component {
                             <NavLink href="/function-components-practice">FunctionComponents</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
+                            <NavLink href="https://github.com/alinan-vn/">GitHub</NavLink>
                         </NavItem>
                     </Nav>
                 </Navbar>
