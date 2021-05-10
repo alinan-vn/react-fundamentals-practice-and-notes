@@ -29,19 +29,24 @@ function UseStatePractice(){
 
 
     return(
-        <div>
-            <Card body inverse style={{ backgroundColor: '#333', borderColor: '#333' }}>
+        <div className='useState'>
+
+            <h1>'useState' practice examples:</h1>
+
+            <Card className='useState-card' body inverse style={{ backgroundColor: '#333', borderColor: '#333' }}>
                 <CardTitle tag="h5">"useState" Practice example</CardTitle>
                 <CardText>You clicked { count } times!</CardText>
                 <Button onClick={() => setCount(count + 1)}>Click Me!</Button>
             </Card><br />
-            <Card body inverse style={{ backgroundColor: 'green', borderColor: 'green' }}>
+
+            <Card className='useState-card' body inverse style={{ backgroundColor: 'green', borderColor: 'green' }}>
                 <CardTitle tag="h5">"useState Practice example</CardTitle>
                 <CardText>Current text says: "{ text }"</CardText>
                 <input id='input-text' placeholder='type new text here!' /><br />
                 <Button onClick={updateText}>Update Text!</Button>
             </Card><br />
-            <Card body inverse color="info">
+
+            <Card className='useState-card' body inverse color="info">
                 <CardTitle tag="h5">"useState Practice example</CardTitle>
                 <CardText>Title: "{textObject.title}"</CardText>
                 <CardText>Author: "{textObject.author}"</CardText>

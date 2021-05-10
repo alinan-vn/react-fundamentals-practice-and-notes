@@ -9,8 +9,11 @@ function UseEffectPractice(){
     })
 
     return(
-        <div>
-            <Card body inverse style={{ backgroundColor: '#999', borderColor: '#555' }}>
+        <div className='useEffect'>
+            
+            <h1>'useEffect practice examples'</h1>
+
+            <Card className='useEffect-card' body inverse style={{ backgroundColor: '#999', borderColor: '#555' }}>
                 <CardTitle tag="h5">"useEffect" Practice example</CardTitle>
                 <CardText>You clicked { count } times!</CardText>
                 <Button onClick={() => setCount(count + 1)}>Click Me!</Button>

@@ -1,5 +1,3 @@
-import './scss/main.scss';
-
 import {BrowserRouter, Route} from 'react-router-dom';
 
 import Navigation from './components/global/navigation/index.jsx';

@@ -10,11 +10,9 @@ class FunctionComponentPractice extends React.Component {
         return(
             <div>
                 <br /><hr /><br />
-                <h1>'useEffect practice examples'</h1>
                 <UseEffectPractice />
 
                 <br /><hr /><br />
-                <h1>'useState' practice examples:</h1>
                 <UseStatePractice />
             </div>
         )
