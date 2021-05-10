@@ -16,10 +16,9 @@ class FunctionComponentPractice extends React.Component {
                     <UseEffectPractice />
                 </div>
 
-                <div>
-                    <h3>From root index, STATE title here</h3>
-                    <UseStatePractice />
-                </div>
+                <hr />
+                <h1>'useState' practice examples:</h1>
+                <UseStatePractice />
             </div>
         )
     }
