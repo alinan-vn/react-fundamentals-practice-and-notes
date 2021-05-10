@@ -9,14 +9,11 @@ class FunctionComponentPractice extends React.Component {
     render(){
         return(
             <div>
-                <h1>Root index stuff goes here</h1>
+                <br /><hr /><br />
+                <h1>'useEffect practice examples'</h1>
+                <UseEffectPractice />
 
-                <div>
-                    <h3>From root index, EFFECT title here</h3>
-                    <UseEffectPractice />
-                </div>
-
-                <hr />
+                <br /><hr /><br />
                 <h1>'useState' practice examples:</h1>
                 <UseStatePractice />
             </div>
