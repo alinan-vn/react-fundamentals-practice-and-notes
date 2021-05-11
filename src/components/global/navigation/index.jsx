@@ -19,13 +19,13 @@ class Navigation extends React.Component {
     render(){
         return(
             <div>
-                <Navbar color="light" light expand="md">
-                    <NavbarBrand href="/">React Practice</NavbarBrand>
+                <Navbar className='navigation' color="light" light expand="md">
+                    <NavbarBrand className='navigation-main-item' href="/">React Practice</NavbarBrand>
                     <Nav className="mr-auto" navbar>
-                        <NavItem>
+                        <NavItem className='navigation-reg-item'>
                             <NavLink href="/function-components-practice">FunctionComponents</NavLink>
                         </NavItem>
-                        <NavItem>
+                        <NavItem className='navigation-reg-item'>
                             <NavLink href="https://github.com/alinan-vn/">GitHub</NavLink>
                         </NavItem>
                     </Nav>
