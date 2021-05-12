@@ -1,4 +1,5 @@
 import React from 'react';
+import {Button} from 'reactstrap';
 
 import UseEffectPractice from './useEffectPractice/index';
 import UseStatePractice from './useStatePractice/index';
@@ -6,14 +7,22 @@ import UseStatePractice from './useStatePractice/index';
 
 class FunctionComponentPractice extends React.Component {
 
+    handleRedirection = (direction) => {
+        if (direction === "useEffect"){
+            this.props.history.push("/useEffect-practice")
+        } else if (direction === "useState"){
+            this.props.history.push("/useState-practice")
+        }
+    }
+
     render(){
         return(
-            <div>
+            <div className='functionComponent'>
                 <br /><hr /><br />
-                <UseEffectPractice />
+                <Button className='functionComponent-btn' onClick={() => this.handleRedirection("useEffect")}>View useEffect examples</Button>
 
                 <br /><hr /><br />
-                <UseStatePractice />
+                <Button className='functionComponent-btn' onClick={() => this.handleRedirection("useState")}>View useState examples</Button>
             </div>
         )
     }

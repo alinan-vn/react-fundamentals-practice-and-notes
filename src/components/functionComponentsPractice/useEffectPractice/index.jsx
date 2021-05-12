@@ -17,7 +17,7 @@ function UseEffectPractice(){
     }
 
     useEffect(() => {
-        // setUpdateCount(updateCount + 1);
+        setUpdateCount(updateCount + 1);
     })
 
     return(
